@@ -1,0 +1,106 @@
+body{
+    line-height: 18px;
+    font-size: 15px;
+}
+
+.class1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;   
+}
+
+
+.h1 {
+    color: rgb(121, 112, 112);
+    font-weight: lighter;
+}
+
+.h2 {
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+    
+}
+
+.box {
+    max-width: 95%; 
+    margin:auto auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;   
+}
+
+
+
+.box1,.box2,.box3,.box4 {
+    border: 5px solid white;
+    padding: 20px; 
+    margin: 15px;
+    box-shadow: 0 0 25px rgb(224, 213, 213) ; 
+    width: 230px;
+    /* height: 150px; */
+}
+.box1{
+    margin-top: 50%;
+    border: 5px solid white;
+    padding: 20px; 
+    border-top-color: rgb(49, 161, 165);
+
+}
+.box2{
+    
+    border: 5px solid white;
+    padding: 20px; 
+    border-top-color: rgb(218, 34, 34);
+}
+.box3{
+    border: 5px solid white;
+    padding: 20px; 
+    border-top-color: rgb(255, 187, 0);
+}
+.box4{
+    margin-top: 50%;
+    border: 5px solid white;
+    padding: 20px; 
+    border-top-color: rgb(69, 69, 214);
+}
+
+.image {
+    padding-left: 70%; 
+}
+
+
+@media screen and (max-width:385px) 
+{
+    .class1 {
+        width: 100%;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+    }
+    .box1,.box2,.box3,.box4{
+        min-width: 50%;
+        
+    }
+    .box1{
+        margin-top: 15%;
+    }
+    .box4{
+        margin-top: 0%;
+    }
+    .box2{
+        margin-top: 0%;
+    }
+    .image {
+        padding-bottom: 20px;
+    }
+     
+}
+
+
